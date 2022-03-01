@@ -1,0 +1,131 @@
+[0.021s] Invoking command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12
+[0.051s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.156s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.198s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.411s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.435s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.595s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.741s] CMake Warning at CMakeLists.txt:12 (find_package):
+[0.741s]   By not providing "Findlibrealsense2.cmake" in CMAKE_MODULE_PATH this
+[0.742s]   project has asked CMake to find a package configuration file provided by
+[0.742s]   "librealsense2", but CMake did not find one.
+[0.742s] 
+[0.743s]   Could not find a package configuration file provided by "librealsense2"
+[0.743s]   with any of the following names:
+[0.743s] 
+[0.743s]     librealsense2Config.cmake
+[0.744s]     librealsense2-config.cmake
+[0.744s] 
+[0.744s]   Add the installation prefix of "librealsense2" to CMAKE_PREFIX_PATH or set
+[0.744s]   "librealsense2_DIR" to a directory containing one of the above files.  If
+[0.745s]   "librealsense2" provides a separate development package or SDK, be sure it
+[0.745s]   has been installed.
+[0.745s] 
+[0.746s] 
+[0.756s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.870s] -- The imported target "vtkParseOGLExt" references the file
+[0.871s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.871s] but this file does not exist.  Possible reasons include:
+[0.871s] * The file was deleted, renamed, or moved to another location.
+[0.871s] * An install or uninstall procedure did not complete successfully.
+[0.871s] * The installation package was faulty and contained
+[0.872s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.872s] but not all the files it references.
+[0.872s] 
+[0.872s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.873s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.873s] but this file does not exist.  Possible reasons include:
+[0.873s] * The file was deleted, renamed, or moved to another location.
+[0.874s] * An install or uninstall procedure did not complete successfully.
+[0.874s] * The installation package was faulty and contained
+[0.874s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.874s] but not all the files it references.
+[0.875s] 
+[0.875s] -- The imported target "vtk" references the file
+[0.876s]    "/usr/bin/vtk"
+[0.876s] but this file does not exist.  Possible reasons include:
+[0.876s] * The file was deleted, renamed, or moved to another location.
+[0.876s] * An install or uninstall procedure did not complete successfully.
+[0.876s] * The installation package was faulty and contained
+[0.877s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.877s] but not all the files it references.
+[0.877s] 
+[0.877s] -- The imported target "pvtk" references the file
+[0.877s]    "/usr/bin/pvtk"
+[0.878s] but this file does not exist.  Possible reasons include:
+[0.878s] * The file was deleted, renamed, or moved to another location.
+[0.878s] * An install or uninstall procedure did not complete successfully.
+[0.878s] * The installation package was faulty and contained
+[0.878s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.878s] but not all the files it references.
+[0.878s] 
+[0.902s] -- Checking for module 'libusb-1.0'
+[0.908s] --   No package 'libusb-1.0' found
+[0.912s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.912s] -- OpenNI disabled because libusb-1.0 not found.
+[0.912s] ** WARNING ** io features related to openni will be disabled
+[0.918s] -- Checking for module 'libusb-1.0'
+[0.924s] --   No package 'libusb-1.0' found
+[0.932s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.932s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.933s] ** WARNING ** io features related to openni2 will be disabled
+[0.933s] ** WARNING ** io features related to pcap will be disabled
+[0.933s] ** WARNING ** io features related to png will be disabled
+[0.954s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.954s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.960s] -- Checking for module 'libusb-1.0'
+[0.966s] --   No package 'libusb-1.0' found
+[0.972s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.972s] -- OpenNI disabled because libusb-1.0 not found.
+[0.973s] ** WARNING ** visualization features related to openni will be disabled
+[0.982s] -- Checking for module 'libusb-1.0'
+[0.988s] --   No package 'libusb-1.0' found
+[0.993s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.994s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.994s] ** WARNING ** visualization features related to openni2 will be disabled
+[1.015s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.024s] -- Checking for module 'libusb-1.0'
+[1.031s] --   No package 'libusb-1.0' found
+[1.037s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.037s] -- OpenNI disabled because libusb-1.0 not found.
+[1.038s] ** WARNING ** apps features related to openni will be disabled
+[1.055s] -- looking for PCL_COMMON
+[1.056s] -- looking for PCL_KDTREE
+[1.056s] -- looking for PCL_OCTREE
+[1.057s] -- looking for PCL_SEARCH
+[1.057s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.058s] -- looking for PCL_FILTERS
+[1.059s] -- looking for PCL_2D
+[1.059s] -- looking for PCL_GEOMETRY
+[1.059s] -- looking for PCL_IO
+[1.060s] -- looking for PCL_FEATURES
+[1.061s] -- looking for PCL_ML
+[1.061s] -- looking for PCL_SEGMENTATION
+[1.062s] -- looking for PCL_VISUALIZATION
+[1.063s] -- looking for PCL_SURFACE
+[1.064s] -- looking for PCL_REGISTRATION
+[1.064s] -- looking for PCL_KEYPOINTS
+[1.065s] -- looking for PCL_TRACKING
+[1.066s] -- looking for PCL_RECOGNITION
+[1.067s] -- looking for PCL_STEREO
+[1.067s] -- looking for PCL_APPS
+[1.068s] -- looking for PCL_IN_HAND_SCANNER
+[1.069s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.069s] -- looking for PCL_OUTOFCORE
+[1.070s] -- looking for PCL_PEOPLE
+[1.073s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.073s]   ament_target_dependencies() the passed package name 'rclcpp,' was not found
+[1.073s]   before
+[1.073s] Call Stack (most recent call first):
+[1.073s]   CMakeLists.txt:19 (ament_target_dependencies)
+[1.074s] 
+[1.074s] 
+[1.074s] -- Configuring incomplete, errors occurred!
+[1.074s] See also "/home/arvid/Documents/ros2/ws/build/lidar_cpp/CMakeFiles/CMakeOutput.log".
+[1.074s] See also "/home/arvid/Documents/ros2/ws/build/lidar_cpp/CMakeFiles/CMakeError.log".
+[1.082s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.084s] Invoked command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12

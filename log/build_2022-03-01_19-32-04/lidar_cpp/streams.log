@@ -1,0 +1,32 @@
+[0.023s] Invoking command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12
+[0.054s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.162s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.205s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.414s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.416s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.436s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.595s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.749s] CMake Error at CMakeLists.txt:14 (find_package):
+[0.749s]   By not providing "Findpcl.cmake" in CMAKE_MODULE_PATH this project has
+[0.749s]   asked CMake to find a package configuration file provided by "pcl", but
+[0.750s]   CMake did not find one.
+[0.750s] 
+[0.750s]   Could not find a package configuration file provided by "pcl" with any of
+[0.750s]   the following names:
+[0.751s] 
+[0.751s]     pclConfig.cmake
+[0.751s]     pcl-config.cmake
+[0.751s] 
+[0.751s]   Add the installation prefix of "pcl" to CMAKE_PREFIX_PATH or set "pcl_DIR"
+[0.752s]   to a directory containing one of the above files.  If "pcl" provides a
+[0.752s]   separate development package or SDK, be sure it has been installed.
+[0.752s] 
+[0.752s] 
+[0.753s] -- Configuring incomplete, errors occurred!
+[0.753s] See also "/home/arvid/Documents/ros2/ws/build/lidar_cpp/CMakeFiles/CMakeOutput.log".
+[0.753s] See also "/home/arvid/Documents/ros2/ws/build/lidar_cpp/CMakeFiles/CMakeError.log".
+[0.755s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.758s] Invoked command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12

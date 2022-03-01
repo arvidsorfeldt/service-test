@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000663] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001134] (lidar_cpp) JobQueued: {'identifier': 'lidar_cpp', 'dependencies': OrderedDict()}
+[0.001905] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.010449] (lidar_cpp) JobStarted: {'identifier': 'lidar_cpp'}
+[0.022157] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.023512] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.024406] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arvid/Documents/ros2/ws/build/cpp_srvcli', '--', '-j12', '-l12'], 'cwd': '/home/arvid/Documents/ros2/ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arvid'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1892'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/arvid'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5009'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'arvid'), ('JOURNAL_STREAM', '8:45974'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arvid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arvid/.local/bin:/opt/ros/galactic/bin:/home/arvid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arvid-MS-7A39:@/tmp/.ICE-unix/1930,unix/arvid-MS-7A39:/tmp/.ICE-unix/1930'), ('INVOCATION_ID', '52d1c20b12454bc4ae8f685c503eb1a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2fab7cc7ac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arvid/Documents/ros2/ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/arvid/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.031260] (lidar_cpp) JobProgress: {'identifier': 'lidar_cpp', 'progress': 'cmake'}
+[0.032538] (lidar_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/arvid/Documents/ros2/ws/src/lidar_cpp', '-DCMAKE_INSTALL_PREFIX=/home/arvid/Documents/ros2/ws/install/lidar_cpp'], 'cwd': '/home/arvid/Documents/ros2/ws/build/lidar_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arvid'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1892'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/arvid'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5009'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'arvid'), ('JOURNAL_STREAM', '8:45974'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arvid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arvid/.local/bin:/opt/ros/galactic/bin:/home/arvid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arvid-MS-7A39:@/tmp/.ICE-unix/1930,unix/arvid-MS-7A39:/tmp/.ICE-unix/1930'), ('INVOCATION_ID', '52d1c20b12454bc4ae8f685c503eb1a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2fab7cc7ac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arvid/Documents/ros2/ws/build/lidar_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/arvid/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.059240] (lidar_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.086898] (lidar_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099556] (-) TimerEvent: {}
+[0.100149] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target server\n'}
+[0.107994] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[0.126183] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[0.152457] (lidar_cpp) StdoutLine: {'line': b'-- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.164506] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[0.176984] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arvid/Documents/ros2/ws/build/cpp_srvcli'], 'cwd': '/home/arvid/Documents/ros2/ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arvid'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1892'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/arvid'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5009'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'arvid'), ('JOURNAL_STREAM', '8:45974'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arvid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arvid/.local/bin:/opt/ros/galactic/bin:/home/arvid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arvid-MS-7A39:@/tmp/.ICE-unix/1930,unix/arvid-MS-7A39:/tmp/.ICE-unix/1930'), ('INVOCATION_ID', '52d1c20b12454bc4ae8f685c503eb1a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2fab7cc7ac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arvid/Documents/ros2/ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/arvid/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.187444] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.187850] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[0.188235] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/arvid/Documents/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[0.188476] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[0.189044] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/arvid/Documents/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[0.189451] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[0.189681] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[0.189890] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[0.190048] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[0.190215] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[0.190378] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[0.190523] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[0.190667] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[0.190810] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[0.190952] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[0.191173] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[0.191483] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[0.191806] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[0.192005] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[0.192195] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/arvid/Documents/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[0.193228] (lidar_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.193909] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[0.196994] (lidar_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.200152] (-) TimerEvent: {}
+[0.262785] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[0.300267] (-) TimerEvent: {}
+[0.334796] (lidar_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.393099] (lidar_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.394698] (lidar_cpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.400360] (-) TimerEvent: {}
+[0.418731] (lidar_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.500511] (-) TimerEvent: {}
+[0.578086] (lidar_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.600618] (-) TimerEvent: {}
+[0.701012] (-) TimerEvent: {}
+[0.724194] (lidar_cpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[0.801160] (-) TimerEvent: {}
+[0.832016] (lidar_cpp) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[0.832239] (lidar_cpp) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[0.832330] (lidar_cpp) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.832414] (lidar_cpp) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.832497] (lidar_cpp) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.832580] (lidar_cpp) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.832663] (lidar_cpp) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.832744] (lidar_cpp) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.832824] (lidar_cpp) StdoutLine: {'line': b'\n'}
+[0.833125] (lidar_cpp) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[0.833232] (lidar_cpp) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[0.833314] (lidar_cpp) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.833395] (lidar_cpp) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.833477] (lidar_cpp) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.833558] (lidar_cpp) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.833639] (lidar_cpp) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.833720] (lidar_cpp) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.833800] (lidar_cpp) StdoutLine: {'line': b'\n'}
+[0.833947] (lidar_cpp) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[0.834029] (lidar_cpp) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[0.834149] (lidar_cpp) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.834237] (lidar_cpp) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.834318] (lidar_cpp) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.834399] (lidar_cpp) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.834480] (lidar_cpp) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.834560] (lidar_cpp) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.834640] (lidar_cpp) StdoutLine: {'line': b'\n'}
+[0.834721] (lidar_cpp) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[0.834801] (lidar_cpp) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[0.834882] (lidar_cpp) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.834963] (lidar_cpp) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.835073] (lidar_cpp) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.835273] (lidar_cpp) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.835469] (lidar_cpp) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.835683] (lidar_cpp) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.835892] (lidar_cpp) StdoutLine: {'line': b'\n'}
+[0.861733] (lidar_cpp) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.868000] (lidar_cpp) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.874897] (lidar_cpp) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.875334] (lidar_cpp) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.875791] (lidar_cpp) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[0.886082] (lidar_cpp) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.890533] (lidar_cpp) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.896116] (lidar_cpp) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.896540] (lidar_cpp) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[0.896956] (lidar_cpp) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[0.897356] (lidar_cpp) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[0.897719] (lidar_cpp) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[0.901226] (-) TimerEvent: {}
+[0.917350] (lidar_cpp) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[0.917599] (lidar_cpp) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[0.925547] (lidar_cpp) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.928469] (lidar_cpp) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.932561] (lidar_cpp) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.932974] (lidar_cpp) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.933209] (lidar_cpp) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[0.939950] (lidar_cpp) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.943409] (lidar_cpp) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.947515] (lidar_cpp) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.947844] (lidar_cpp) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[0.947988] (lidar_cpp) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[0.969544] (lidar_cpp) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[0.975472] (lidar_cpp) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.978754] (lidar_cpp) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.984342] (lidar_cpp) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.984808] (lidar_cpp) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.985099] (lidar_cpp) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[1.001371] (-) TimerEvent: {}
+[1.002687] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.003253] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.003816] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.004452] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.005019] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.005568] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.006206] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.006931] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.007395] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.008051] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.008748] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.009333] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.010091] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.010841] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.011593] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.012331] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.013043] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.013944] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.014781] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.015443] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.016776] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.017209] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.017692] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.018498] (lidar_cpp) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.028346] (lidar_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.101509] (-) TimerEvent: {}
+[1.101877] (lidar_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.102703] (lidar_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.103122] (lidar_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.103388] (lidar_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.103966] (lidar_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.104258] (lidar_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.104595] (lidar_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.105328] (lidar_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.105570] (lidar_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.105838] (lidar_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.108309] (lidar_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.120828] (lidar_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.122787] (lidar_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/arvid/Documents/ros2/ws/build/lidar_cpp\n'}
+[1.131912] (lidar_cpp) CommandEnded: {'returncode': 0}
+[1.132981] (lidar_cpp) JobProgress: {'identifier': 'lidar_cpp', 'progress': 'build'}
+[1.133746] (lidar_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arvid/Documents/ros2/ws/build/lidar_cpp', '--', '-j12', '-l12'], 'cwd': '/home/arvid/Documents/ros2/ws/build/lidar_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arvid'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1892'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/arvid'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5009'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'arvid'), ('JOURNAL_STREAM', '8:45974'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arvid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arvid/.local/bin:/opt/ros/galactic/bin:/home/arvid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arvid-MS-7A39:@/tmp/.ICE-unix/1930,unix/arvid-MS-7A39:/tmp/.ICE-unix/1930'), ('INVOCATION_ID', '52d1c20b12454bc4ae8f685c503eb1a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2fab7cc7ac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arvid/Documents/ros2/ws/build/lidar_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/arvid/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.189500] (lidar_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar\x1b[0m\n'}
+[1.202005] (-) TimerEvent: {}
+[1.269821] (lidar_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o\x1b[0m\n'}
+[1.302136] (-) TimerEvent: {}
+[1.402525] (-) TimerEvent: {}
+[1.503004] (-) TimerEvent: {}
+[1.603414] (-) TimerEvent: {}
+[1.703729] (-) TimerEvent: {}
+[1.804061] (-) TimerEvent: {}
+[1.904518] (-) TimerEvent: {}
+[2.004898] (-) TimerEvent: {}
+[2.105476] (-) TimerEvent: {}
+[2.206121] (-) TimerEvent: {}
+[2.306565] (-) TimerEvent: {}
+[2.407011] (-) TimerEvent: {}
+[2.507489] (-) TimerEvent: {}
+[2.608053] (-) TimerEvent: {}
+[2.708476] (-) TimerEvent: {}
+[2.808910] (-) TimerEvent: {}
+[2.909434] (-) TimerEvent: {}
+[3.009868] (-) TimerEvent: {}
+[3.110394] (-) TimerEvent: {}
+[3.210831] (-) TimerEvent: {}
+[3.311247] (-) TimerEvent: {}
+[3.411710] (-) TimerEvent: {}
+[3.512136] (-) TimerEvent: {}
+[3.612577] (-) TimerEvent: {}
+[3.713019] (-) TimerEvent: {}
+[3.813451] (-) TimerEvent: {}
+[3.913912] (-) TimerEvent: {}
+[4.014429] (-) TimerEvent: {}
+[4.114881] (-) TimerEvent: {}
+[4.215301] (-) TimerEvent: {}
+[4.315747] (-) TimerEvent: {}
+[4.416164] (-) TimerEvent: {}
+[4.516601] (-) TimerEvent: {}
+[4.617082] (-) TimerEvent: {}
+[4.717493] (-) TimerEvent: {}
+[4.818032] (-) TimerEvent: {}
+[4.918461] (-) TimerEvent: {}
+[5.019041] (-) TimerEvent: {}
+[5.119583] (-) TimerEvent: {}
+[5.220089] (-) TimerEvent: {}
+[5.320572] (-) TimerEvent: {}
+[5.421005] (-) TimerEvent: {}
+[5.521558] (-) TimerEvent: {}
+[5.622002] (-) TimerEvent: {}
+[5.722430] (-) TimerEvent: {}
+[5.822880] (-) TimerEvent: {}
+[5.923291] (-) TimerEvent: {}
+[6.023763] (-) TimerEvent: {}
+[6.124223] (-) TimerEvent: {}
+[6.224650] (-) TimerEvent: {}
+[6.325135] (-) TimerEvent: {}
+[6.425574] (-) TimerEvent: {}
+[6.526022] (-) TimerEvent: {}
+[6.626607] (-) TimerEvent: {}
+[6.727094] (-) TimerEvent: {}
+[6.827529] (-) TimerEvent: {}
+[6.927977] (-) TimerEvent: {}
+[7.028388] (-) TimerEvent: {}
+[7.128835] (-) TimerEvent: {}
+[7.229270] (-) TimerEvent: {}
+[7.329743] (-) TimerEvent: {}
+[7.430171] (-) TimerEvent: {}
+[7.530615] (-) TimerEvent: {}
+[7.631058] (-) TimerEvent: {}
+[7.731487] (-) TimerEvent: {}
+[7.831966] (-) TimerEvent: {}
+[7.932381] (-) TimerEvent: {}
+[8.032832] (-) TimerEvent: {}
+[8.133250] (-) TimerEvent: {}
+[8.233703] (-) TimerEvent: {}
+[8.334154] (-) TimerEvent: {}
+[8.434598] (-) TimerEvent: {}
+[8.535021] (-) TimerEvent: {}
+[8.635457] (-) TimerEvent: {}
+[8.735889] (-) TimerEvent: {}
+[8.836330] (-) TimerEvent: {}
+[8.936805] (-) TimerEvent: {}
+[9.037270] (-) TimerEvent: {}
+[9.137733] (-) TimerEvent: {}
+[9.238171] (-) TimerEvent: {}
+[9.338610] (-) TimerEvent: {}
+[9.439046] (-) TimerEvent: {}
+[9.539584] (-) TimerEvent: {}
+[9.640021] (-) TimerEvent: {}
+[9.740489] (-) TimerEvent: {}
+[9.840963] (-) TimerEvent: {}
+[9.941397] (-) TimerEvent: {}
+[10.041820] (-) TimerEvent: {}
+[10.142255] (-) TimerEvent: {}
+[10.242693] (-) TimerEvent: {}
+[10.343153] (-) TimerEvent: {}
+[10.438996] (lidar_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar\x1b[0m\n'}
+[10.443255] (-) TimerEvent: {}
+[10.543615] (-) TimerEvent: {}
+[10.642266] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::error::error(rs2_error*)':\n"}
+[10.642697] (lidar_cpp) StderrLine: {'line': b"lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x32): undefined reference to `rs2_get_error_message'\n"}
+[10.643000] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x77): undefined reference to `rs2_get_failed_function'\n"}
+[10.643307] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x9e): undefined reference to `rs2_get_failed_function'\n"}
+[10.643516] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x101): undefined reference to `rs2_get_failed_args'\n"}
+[10.643739] (-) TimerEvent: {}
+[10.643952] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x128): undefined reference to `rs2_get_failed_args'\n"}
+[10.644171] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x18b): undefined reference to `rs2_get_librealsense_exception_type'\n"}
+[10.644414] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x19e): undefined reference to `rs2_free_error'\n"}
+[10.644614] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::error::handle(rs2_error*)':\n"}
+[10.644808] (lidar_cpp) StderrLine: {'line': b"lidar_publisher.cpp:(.text._ZN3rs25error6handleEP9rs2_error[_ZN3rs25error6handleEP9rs2_error]+0x26): undefined reference to `rs2_get_librealsense_exception_type'\n"}
+[10.645005] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::context::context()':\n"}
+[10.645199] (lidar_cpp) StderrLine: {'line': b"lidar_publisher.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x41): undefined reference to `rs2_create_context'\n"}
+[10.645390] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x4f): undefined reference to `rs2_delete_context'\n"}
+[10.645598] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::pipeline::pipeline(rs2::context)':\n"}
+[10.645834] (lidar_cpp) StderrLine: {'line': b"lidar_publisher.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x52): undefined reference to `rs2_create_pipeline'\n"}
+[10.646031] (lidar_cpp) StderrLine: {'line': b"/usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x60): undefined reference to `rs2_delete_pipeline'\n"}
+[10.646226] (lidar_cpp) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.646471] (lidar_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lidar.dir/build.make:155: lidar] Error 1\n'}
+[10.646775] (lidar_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2\n'}
+[10.647123] (lidar_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.650155] (lidar_cpp) CommandEnded: {'returncode': 2}
+[10.692855] (lidar_cpp) JobEnded: {'identifier': 'lidar_cpp', 'rc': 2}
+[10.703618] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** apps features related to openni will be disabled
+CMake Error at CMakeLists.txt:37 (target_link_libraries):
+  The plain signature for target_link_libraries has already been used with
+  the target "lidar".  All uses of target_link_libraries with a target must
+  be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)
+   * /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries)
+
+
+

@@ -1,0 +1,112 @@
+[0.024s] Invoking command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12
+[0.054s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.147s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.416s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.575s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.732s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.845s] -- The imported target "vtkParseOGLExt" references the file
+[0.845s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.845s] but this file does not exist.  Possible reasons include:
+[0.846s] * The file was deleted, renamed, or moved to another location.
+[0.846s] * An install or uninstall procedure did not complete successfully.
+[0.846s] * The installation package was faulty and contained
+[0.846s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.846s] but not all the files it references.
+[0.847s] 
+[0.847s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.847s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.847s] but this file does not exist.  Possible reasons include:
+[0.848s] * The file was deleted, renamed, or moved to another location.
+[0.848s] * An install or uninstall procedure did not complete successfully.
+[0.848s] * The installation package was faulty and contained
+[0.848s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.848s] but not all the files it references.
+[0.849s] 
+[0.849s] -- The imported target "vtk" references the file
+[0.849s]    "/usr/bin/vtk"
+[0.849s] but this file does not exist.  Possible reasons include:
+[0.849s] * The file was deleted, renamed, or moved to another location.
+[0.850s] * An install or uninstall procedure did not complete successfully.
+[0.850s] * The installation package was faulty and contained
+[0.850s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.850s] but not all the files it references.
+[0.850s] 
+[0.851s] -- The imported target "pvtk" references the file
+[0.851s]    "/usr/bin/pvtk"
+[0.851s] but this file does not exist.  Possible reasons include:
+[0.851s] * The file was deleted, renamed, or moved to another location.
+[0.851s] * An install or uninstall procedure did not complete successfully.
+[0.852s] * The installation package was faulty and contained
+[0.852s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.852s] but not all the files it references.
+[0.852s] 
+[0.873s] -- Checking for module 'libusb-1.0'
+[0.878s] --   No package 'libusb-1.0' found
+[0.885s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.885s] -- OpenNI disabled because libusb-1.0 not found.
+[0.886s] ** WARNING ** io features related to openni will be disabled
+[0.896s] -- Checking for module 'libusb-1.0'
+[0.903s] --   No package 'libusb-1.0' found
+[0.909s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.909s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.909s] ** WARNING ** io features related to openni2 will be disabled
+[0.909s] ** WARNING ** io features related to pcap will be disabled
+[0.910s] ** WARNING ** io features related to png will be disabled
+[0.931s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.932s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.937s] -- Checking for module 'libusb-1.0'
+[0.943s] --   No package 'libusb-1.0' found
+[0.947s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.948s] -- OpenNI disabled because libusb-1.0 not found.
+[0.948s] ** WARNING ** visualization features related to openni will be disabled
+[0.955s] -- Checking for module 'libusb-1.0'
+[0.961s] --   No package 'libusb-1.0' found
+[0.966s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.967s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.967s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.985s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.994s] -- Checking for module 'libusb-1.0'
+[1.001s] --   No package 'libusb-1.0' found
+[1.009s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.009s] -- OpenNI disabled because libusb-1.0 not found.
+[1.009s] ** WARNING ** apps features related to openni will be disabled
+[1.030s] -- looking for PCL_COMMON
+[1.031s] -- looking for PCL_KDTREE
+[1.031s] -- looking for PCL_OCTREE
+[1.032s] -- looking for PCL_SEARCH
+[1.032s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.033s] -- looking for PCL_FILTERS
+[1.034s] -- looking for PCL_2D
+[1.034s] -- looking for PCL_GEOMETRY
+[1.035s] -- looking for PCL_IO
+[1.035s] -- looking for PCL_FEATURES
+[1.036s] -- looking for PCL_ML
+[1.037s] -- looking for PCL_SEGMENTATION
+[1.037s] -- looking for PCL_VISUALIZATION
+[1.038s] -- looking for PCL_SURFACE
+[1.039s] -- looking for PCL_REGISTRATION
+[1.040s] -- looking for PCL_KEYPOINTS
+[1.041s] -- looking for PCL_TRACKING
+[1.041s] -- looking for PCL_RECOGNITION
+[1.042s] -- looking for PCL_STEREO
+[1.043s] -- looking for PCL_APPS
+[1.044s] -- looking for PCL_IN_HAND_SCANNER
+[1.045s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.045s] -- looking for PCL_OUTOFCORE
+[1.046s] -- looking for PCL_PEOPLE
+[1.048s] CMake Error at CMakeLists.txt:19 (target_link_libraries):
+[1.048s]   Cannot specify link libraries for target "lidar_cpp" which is not built by
+[1.049s]   this project.
+[1.049s] 
+[1.049s] 
+[1.050s] -- Configuring incomplete, errors occurred!
+[1.050s] See also "/home/arvid/Documents/ros2/ws/build/lidar_cpp/CMakeFiles/CMakeOutput.log".
+[1.050s] See also "/home/arvid/Documents/ros2/ws/build/lidar_cpp/CMakeFiles/CMakeError.log".
+[1.058s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.061s] Invoked command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12

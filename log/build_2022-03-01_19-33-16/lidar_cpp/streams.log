@@ -1,0 +1,159 @@
+[0.026s] Invoking command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12
+[0.059s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.170s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.411s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.413s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.437s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.597s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.754s] -- Checking for module 'eigen3'
+[0.783s] --   Found eigen3, version 3.3.7
+[0.835s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.835s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.891s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[0.911s] -- Checking for module 'flann'
+[0.937s] --   Found flann, version 1.9.1
+[1.013s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.086s] -- The imported target "vtkParseOGLExt" references the file
+[1.086s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.087s] but this file does not exist.  Possible reasons include:
+[1.087s] * The file was deleted, renamed, or moved to another location.
+[1.087s] * An install or uninstall procedure did not complete successfully.
+[1.087s] * The installation package was faulty and contained
+[1.088s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.088s] but not all the files it references.
+[1.088s] 
+[1.089s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.089s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.089s] but this file does not exist.  Possible reasons include:
+[1.089s] * The file was deleted, renamed, or moved to another location.
+[1.089s] * An install or uninstall procedure did not complete successfully.
+[1.090s] * The installation package was faulty and contained
+[1.090s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.090s] but not all the files it references.
+[1.090s] 
+[1.091s] -- The imported target "vtk" references the file
+[1.091s]    "/usr/bin/vtk"
+[1.091s] but this file does not exist.  Possible reasons include:
+[1.091s] * The file was deleted, renamed, or moved to another location.
+[1.092s] * An install or uninstall procedure did not complete successfully.
+[1.092s] * The installation package was faulty and contained
+[1.092s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.092s] but not all the files it references.
+[1.093s] 
+[1.093s] -- The imported target "pvtk" references the file
+[1.093s]    "/usr/bin/pvtk"
+[1.093s] but this file does not exist.  Possible reasons include:
+[1.093s] * The file was deleted, renamed, or moved to another location.
+[1.094s] * An install or uninstall procedure did not complete successfully.
+[1.094s] * The installation package was faulty and contained
+[1.094s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.094s] but not all the files it references.
+[1.094s] 
+[1.128s] -- Checking for module 'libusb-1.0'
+[1.135s] --   No package 'libusb-1.0' found
+[1.141s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.142s] -- OpenNI disabled because libusb-1.0 not found.
+[1.142s] ** WARNING ** io features related to openni will be disabled
+[1.152s] -- Checking for module 'libusb-1.0'
+[1.155s] --   No package 'libusb-1.0' found
+[1.162s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.162s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.162s] ** WARNING ** io features related to openni2 will be disabled
+[1.163s] ** WARNING ** io features related to pcap will be disabled
+[1.163s] ** WARNING ** io features related to png will be disabled
+[1.182s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.183s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.191s] -- Checking for module 'libusb-1.0'
+[1.197s] --   No package 'libusb-1.0' found
+[1.202s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.203s] -- OpenNI disabled because libusb-1.0 not found.
+[1.203s] ** WARNING ** visualization features related to openni will be disabled
+[1.211s] -- Checking for module 'libusb-1.0'
+[1.218s] --   No package 'libusb-1.0' found
+[1.224s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.225s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.225s] ** WARNING ** visualization features related to openni2 will be disabled
+[1.258s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.259s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.267s] -- Checking for module 'libusb-1.0'
+[1.272s] --   No package 'libusb-1.0' found
+[1.279s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.279s] -- OpenNI disabled because libusb-1.0 not found.
+[1.279s] ** WARNING ** apps features related to openni will be disabled
+[1.300s] -- looking for PCL_COMMON
+[1.301s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.301s] -- looking for PCL_KDTREE
+[1.302s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.303s] -- looking for PCL_OCTREE
+[1.304s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.304s] -- looking for PCL_SEARCH
+[1.305s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.305s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.306s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.307s] -- looking for PCL_FILTERS
+[1.308s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.308s] -- looking for PCL_2D
+[1.308s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.309s] -- looking for PCL_GEOMETRY
+[1.309s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.309s] -- looking for PCL_IO
+[1.310s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.310s] -- looking for PCL_FEATURES
+[1.311s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.312s] -- looking for PCL_ML
+[1.313s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.314s] -- looking for PCL_SEGMENTATION
+[1.314s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.315s] -- looking for PCL_VISUALIZATION
+[1.316s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.316s] -- looking for PCL_SURFACE
+[1.317s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.318s] -- looking for PCL_REGISTRATION
+[1.319s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.319s] -- looking for PCL_KEYPOINTS
+[1.320s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.321s] -- looking for PCL_TRACKING
+[1.322s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.322s] -- looking for PCL_RECOGNITION
+[1.324s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.324s] -- looking for PCL_STEREO
+[1.325s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.325s] -- looking for PCL_APPS
+[1.327s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.327s] -- looking for PCL_IN_HAND_SCANNER
+[1.328s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.328s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.328s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.329s] -- looking for PCL_OUTOFCORE
+[1.330s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.330s] -- looking for PCL_PEOPLE
+[1.332s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.333s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[1.334s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.407s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.408s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.408s] -- Configured cppcheck include dirs: 
+[1.408s] -- Configured cppcheck exclude dirs and/or files: 
+[1.409s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.409s] -- Configured cpplint exclude dirs and/or files: 
+[1.410s] -- Added test 'lint_cmake' to check CMake code style
+[1.411s] -- Added test 'uncrustify' to check C / C++ code style
+[1.411s] -- Configured uncrustify additional arguments: 
+[1.412s] -- Added test 'xmllint' to check XML markup files
+[1.414s] -- Configuring done
+[1.423s] -- Generating done
+[1.426s] -- Build files have been written to: /home/arvid/Documents/ros2/ws/build/lidar_cpp
+[1.466s] [35m[1mScanning dependencies of target lidar[0m
+[1.492s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o[0m
+[1.622s] [01m[K/home/arvid/Documents/ros2/ws/src/lidar_cpp/src/lidar_publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: No such file or directory
+[1.622s]     8 | #include [01;31m[K"pcl/point_cloud.h"[m[K
+[1.622s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.622s] compilation terminated.
+[1.626s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o] Error 1
+[1.626s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[1.627s] make: *** [Makefile:141: all] Error 2
+[1.630s] Invoked command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12

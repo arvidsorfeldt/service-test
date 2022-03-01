@@ -1,0 +1,1 @@
+Invoking command in '/home/arvid/Documents/ros2/ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/cpp_srvcli -- -j12 -l12

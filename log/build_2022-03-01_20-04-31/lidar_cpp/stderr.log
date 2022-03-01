@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findlibrealsense2.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "librealsense2", but CMake did not find one.
+
+  Could not find a package configuration file provided by "librealsense2"
+  with any of the following names:
+
+    librealsense2Config.cmake
+    librealsense2-config.cmake
+
+  Add the installation prefix of "librealsense2" to CMAKE_PREFIX_PATH or set
+  "librealsense2_DIR" to a directory containing one of the above files.  If
+  "librealsense2" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

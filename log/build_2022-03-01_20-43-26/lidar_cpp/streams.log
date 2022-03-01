@@ -1,0 +1,140 @@
+[0.025s] Invoking command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12
+[0.061s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.150s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.197s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.425s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.593s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.752s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.862s] -- The imported target "vtkParseOGLExt" references the file
+[0.862s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.862s] but this file does not exist.  Possible reasons include:
+[0.863s] * The file was deleted, renamed, or moved to another location.
+[0.863s] * An install or uninstall procedure did not complete successfully.
+[0.863s] * The installation package was faulty and contained
+[0.863s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.864s] but not all the files it references.
+[0.864s] 
+[0.864s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.864s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.865s] but this file does not exist.  Possible reasons include:
+[0.865s] * The file was deleted, renamed, or moved to another location.
+[0.865s] * An install or uninstall procedure did not complete successfully.
+[0.865s] * The installation package was faulty and contained
+[0.865s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.866s] but not all the files it references.
+[0.866s] 
+[0.866s] -- The imported target "vtk" references the file
+[0.866s]    "/usr/bin/vtk"
+[0.867s] but this file does not exist.  Possible reasons include:
+[0.867s] * The file was deleted, renamed, or moved to another location.
+[0.867s] * An install or uninstall procedure did not complete successfully.
+[0.867s] * The installation package was faulty and contained
+[0.868s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.868s] but not all the files it references.
+[0.868s] 
+[0.868s] -- The imported target "pvtk" references the file
+[0.868s]    "/usr/bin/pvtk"
+[0.868s] but this file does not exist.  Possible reasons include:
+[0.868s] * The file was deleted, renamed, or moved to another location.
+[0.868s] * An install or uninstall procedure did not complete successfully.
+[0.869s] * The installation package was faulty and contained
+[0.869s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.869s] but not all the files it references.
+[0.869s] 
+[0.891s] -- Checking for module 'libusb-1.0'
+[0.897s] --   No package 'libusb-1.0' found
+[0.901s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.901s] -- OpenNI disabled because libusb-1.0 not found.
+[0.902s] ** WARNING ** io features related to openni will be disabled
+[0.911s] -- Checking for module 'libusb-1.0'
+[0.917s] --   No package 'libusb-1.0' found
+[0.923s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.924s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.924s] ** WARNING ** io features related to openni2 will be disabled
+[0.924s] ** WARNING ** io features related to pcap will be disabled
+[0.924s] ** WARNING ** io features related to png will be disabled
+[0.948s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.948s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.957s] -- Checking for module 'libusb-1.0'
+[0.963s] --   No package 'libusb-1.0' found
+[0.970s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.970s] -- OpenNI disabled because libusb-1.0 not found.
+[0.971s] ** WARNING ** visualization features related to openni will be disabled
+[0.981s] -- Checking for module 'libusb-1.0'
+[0.985s] --   No package 'libusb-1.0' found
+[0.991s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.992s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.992s] ** WARNING ** visualization features related to openni2 will be disabled
+[1.013s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.019s] -- Checking for module 'libusb-1.0'
+[1.024s] --   No package 'libusb-1.0' found
+[1.030s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.031s] -- OpenNI disabled because libusb-1.0 not found.
+[1.031s] ** WARNING ** apps features related to openni will be disabled
+[1.051s] -- looking for PCL_COMMON
+[1.052s] -- looking for PCL_KDTREE
+[1.052s] -- looking for PCL_OCTREE
+[1.053s] -- looking for PCL_SEARCH
+[1.054s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.054s] -- looking for PCL_FILTERS
+[1.055s] -- looking for PCL_2D
+[1.055s] -- looking for PCL_GEOMETRY
+[1.056s] -- looking for PCL_IO
+[1.056s] -- looking for PCL_FEATURES
+[1.057s] -- looking for PCL_ML
+[1.058s] -- looking for PCL_SEGMENTATION
+[1.058s] -- looking for PCL_VISUALIZATION
+[1.059s] -- looking for PCL_SURFACE
+[1.060s] -- looking for PCL_REGISTRATION
+[1.061s] -- looking for PCL_KEYPOINTS
+[1.061s] -- looking for PCL_TRACKING
+[1.062s] -- looking for PCL_RECOGNITION
+[1.063s] -- looking for PCL_STEREO
+[1.064s] -- looking for PCL_APPS
+[1.065s] -- looking for PCL_IN_HAND_SCANNER
+[1.065s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.066s] -- looking for PCL_OUTOFCORE
+[1.067s] -- looking for PCL_PEOPLE
+[1.076s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.158s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.159s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.159s] -- Configured cppcheck include dirs: /home/arvid/Documents/ros2/ws/src/lidar_cpp/include
+[1.160s] -- Configured cppcheck exclude dirs and/or files: 
+[1.160s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.160s] -- Configured cpplint exclude dirs and/or files: 
+[1.161s] -- Added test 'lint_cmake' to check CMake code style
+[1.161s] -- Added test 'uncrustify' to check C / C++ code style
+[1.162s] -- Configured uncrustify additional arguments: 
+[1.162s] -- Added test 'xmllint' to check XML markup files
+[1.164s] -- Configuring done
+[1.177s] -- Generating done
+[1.179s] -- Build files have been written to: /home/arvid/Documents/ros2/ws/build/lidar_cpp
+[1.217s] [35m[1mScanning dependencies of target lidar[0m
+[1.256s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o[0m
+[10.361s] [100%] [32m[1mLinking CXX executable lidar[0m
+[10.559s] /usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::error::error(rs2_error*)':
+[10.560s] lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x32): undefined reference to `rs2_get_error_message'
+[10.560s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x77): undefined reference to `rs2_get_failed_function'
+[10.560s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x9e): undefined reference to `rs2_get_failed_function'
+[10.561s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x101): undefined reference to `rs2_get_failed_args'
+[10.561s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x128): undefined reference to `rs2_get_failed_args'
+[10.561s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x18b): undefined reference to `rs2_get_librealsense_exception_type'
+[10.561s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x19e): undefined reference to `rs2_free_error'
+[10.561s] /usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::error::handle(rs2_error*)':
+[10.562s] lidar_publisher.cpp:(.text._ZN3rs25error6handleEP9rs2_error[_ZN3rs25error6handleEP9rs2_error]+0x26): undefined reference to `rs2_get_librealsense_exception_type'
+[10.562s] /usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::context::context()':
+[10.562s] lidar_publisher.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x41): undefined reference to `rs2_create_context'
+[10.562s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x4f): undefined reference to `rs2_delete_context'
+[10.562s] /usr/bin/ld: CMakeFiles/lidar.dir/src/lidar_publisher.cpp.o: in function `rs2::pipeline::pipeline(rs2::context)':
+[10.563s] lidar_publisher.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x52): undefined reference to `rs2_create_pipeline'
+[10.563s] /usr/bin/ld: lidar_publisher.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x60): undefined reference to `rs2_delete_pipeline'
+[10.563s] collect2: error: ld returned 1 exit status
+[10.563s] make[2]: *** [CMakeFiles/lidar.dir/build.make:155: lidar] Error 1
+[10.564s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[10.564s] make: *** [Makefile:141: all] Error 2
+[10.568s] Invoked command in '/home/arvid/Documents/ros2/ws/build/lidar_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/arvid/Documents/ros2/ws/build/lidar_cpp -- -j12 -l12
